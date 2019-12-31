@@ -7,21 +7,23 @@ import { AppComponent } from './app.component';
 import {Component} from '@angular/core';
 
 import {NgForm} from '@angular/forms';
-import { ContactFormComponent } from './contact-form/contact-form.component';
+
 import { IncomeComponent } from './income/income.component';
-import { SignupFormComponent } from './signup-form/signup-form.component';
+
 import { TablesComponent } from './tables/tables.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CommonModule } from '@angular/common';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContactFormComponent,
+    
     IncomeComponent,
-    SignupFormComponent,
+
     TablesComponent,
-    SidebarComponent
+    SidebarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+.image{
+    height:40em; background-size:cover; width:auto;
+    background-image:url('../../assets/barley.webp');
+    background-position:50% 50%;
+  }
+  .form{
+    align-content: center;
+  }
